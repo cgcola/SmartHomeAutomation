@@ -15,3 +15,6 @@ Your challenge is to apply a design pattern that provides a flexible and scalabl
 
 UML Class Diagram:
 ![Image](https://github.com/user-attachments/assets/b3785d93-3b9f-452a-b34a-c8a2d31d08e8)
+
+Note: If the UML Class Diagram is not clearly visible above, you can view the diagram for Smart Home Automation clearly by clicking the link below:
+https://lucid.app/lucidchart/5407147a-fae1-48f1-883f-d05ee36cc1b4/view
