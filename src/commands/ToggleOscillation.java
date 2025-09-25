@@ -1,13 +1,15 @@
 package commands;
 import devices.SmartFan;
 
-public class FanOff implements Command {
+public class ToggleOscillation implements Command {
     private final SmartFan fan;
-    public FanOff(SmartFan fan) {
+
+    public ToggleOscillation(SmartFan fan) {
         this.fan = fan;
     }
+
     @Override
     public String execute() {
-        return fan.turnOff();
+        return fan.toggleOscillation();
     }
 }

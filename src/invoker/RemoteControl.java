@@ -1,4 +1,5 @@
-package controller;
+package invoker;
+
 import commands.Command;
 
 public class RemoteControl {

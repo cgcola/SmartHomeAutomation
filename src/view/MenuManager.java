@@ -1,4 +1,5 @@
 package view;
+
 import java.util.Scanner;
 
 public class MenuManager {
@@ -17,9 +18,9 @@ public class MenuManager {
         return sc.nextInt();
     }
 
-    public int showDeviceMenu (String deviceName, String[] options) {
+    public int showDeviceMenu(String deviceName, String[] options) {
         System.out.println("\n--- " + deviceName + " Controls ---");
-        for (int i = 0; i < options.length; i++){
+        for (int i = 0; i < options.length; i++) {
             System.out.println((i + 1) + ". " + options[i]);
         }
         System.out.print("Choose an action: ");
