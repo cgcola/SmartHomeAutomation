@@ -62,9 +62,9 @@ public class SmartHomeApp {
                     int action = menu.showDeviceMenu("Smart Fan", fanOptions);
                     if (action == 1) remote.setCommand(new FanOn(fan));
                     else if (action == 2) remote.setCommand(new FanOff(fan));
-                    else if (action == 3) remote.setCommand(new FanSpeed1(fan));
-                    else if (action == 4) remote.setCommand(new FanSpeed2(fan));
-                    else if (action == 5) remote.setCommand(new FanSpeed3(fan));
+                    else if (action == 3) remote.setCommand(new SetFanSpeed(fan, 1));
+                    else if (action == 4) remote.setCommand(new SetFanSpeed(fan, 2));
+                    else if (action == 5) remote.setCommand(new SetFanSpeed(fan, 3));
                     break;
                 }
                 case 6: {
